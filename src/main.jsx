@@ -10,6 +10,8 @@ import About from './Components/BodyLayouts/About.jsx'
 import Login from './Components/Header/Login.jsx'
 import SignUp from './Components/Header/SignUp.jsx'
 import UploadImage from './Components/Header/UploadImage.jsx'
+import PasswordGenerator from './Components/BodyLayouts/PasswordGenerator.jsx'
+import TicTacToe from './Components/BodyLayouts/TicTacToe.jsx'
 
 const router = createBrowserRouter([
   {
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
      {
       path :'/UploadImage',
       element: <UploadImage/>,
+    },
+    {
+      path :'/password-generator',
+      element: <PasswordGenerator/>,
+    },
+    {
+      path :'/tic-tac-toe',
+      element: <TicTacToe/>,
     }
   ]
   }
